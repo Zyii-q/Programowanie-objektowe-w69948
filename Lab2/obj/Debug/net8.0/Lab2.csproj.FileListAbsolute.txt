@@ -1,0 +1,5 @@
+C:\Users\w69948\Source\Repos\Programowanie-objektowe-w69948\Lab2\obj\Debug\net8.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w69948\Source\Repos\Programowanie-objektowe-w69948\Lab2\obj\Debug\net8.0\Lab2.AssemblyInfoInputs.cache
+C:\Users\w69948\Source\Repos\Programowanie-objektowe-w69948\Lab2\obj\Debug\net8.0\Lab2.AssemblyInfo.cs
+C:\Users\w69948\Source\Repos\Programowanie-objektowe-w69948\Lab2\obj\Debug\net8.0\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\w69948\Source\Repos\Programowanie-objektowe-w69948\Lab2\obj\Debug\net8.0\Lab2.sourcelink.json
