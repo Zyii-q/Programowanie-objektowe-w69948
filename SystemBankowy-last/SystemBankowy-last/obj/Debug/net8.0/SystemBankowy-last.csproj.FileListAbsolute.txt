@@ -1,0 +1,14 @@
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\bin\Debug\net8.0\SystemBankowy-last.exe
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\bin\Debug\net8.0\SystemBankowy-last.deps.json
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\bin\Debug\net8.0\SystemBankowy-last.runtimeconfig.json
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\bin\Debug\net8.0\SystemBankowy-last.dll
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\bin\Debug\net8.0\SystemBankowy-last.pdb
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\SystemBankowy-last.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\SystemBankowy-last.AssemblyInfoInputs.cache
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\SystemBankowy-last.AssemblyInfo.cs
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\SystemBankowy-last.csproj.CoreCompileInputs.cache
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\SystemBankowy-last.dll
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\refint\SystemBankowy-last.dll
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\SystemBankowy-last.pdb
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\SystemBankowy-last.genruntimeconfig.cache
+C:\Users\pizv9\source\repos\Projekt-SystemBankowy\SystemBankowy-last\SystemBankowy-last\obj\Debug\net8.0\ref\SystemBankowy-last.dll
