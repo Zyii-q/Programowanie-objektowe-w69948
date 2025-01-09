@@ -1,0 +1,69 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
+
+public class FileBookRepository : IRepository<Book>
+{
+    private readonly string _filePath;
+
+    // Konstruktor repozytorium, przyjmujący ścieżkę do pliku JSON
+    public FileBookRepository(string filePath)
+    {
+        _filePath = filePath;
+    }
+
+    // Zapisuje książkę do pliku JSON
+    public void Save(Book book)
+    {
+        var books = GetAllBooksFromFile();
+
+        // Dodaj książkę do listy
+        books.Add(book);
+
+        // Serializuj listę książek do JSON i zapisz do pliku
+        var json = JsonSerializer.Serialize(books, new JsonSerializerOptions { WriteIndented = true });
+        File.WriteAllText(_filePath, json);
+    }
+
+    // Pobiera książkę po ID
+    public Book Get(int id)
+    {
+        var books = GetAllBooksFromFile();
+        return books.Find(b => b.Id == id);
+    }
+
+    // Zwraca wszystkie książki
+    public IEnumerable<Book> GetAll()
+    {
+        return GetAllBooksFromFile();
+    }
+
+    // Usuwa książkę po ID
+    public void Delete(int id)
+    {
+        var books = GetAllBooksFromFile();
+        var bookToRemove = books.Find(b => b.Id == id);
+
+        if (bookToRemove != null)
+        {
+            books.Remove(bookToRemove);
+
+            // Serializuj zmodyfikowaną listę książek i zapisz do pliku
+            var json = JsonSerializer.Serialize(books, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_filePath, json);
+        }
+    }
+
+    // Prywatna metoda pomocnicza do odczytu książek z pliku
+    private List<Book> GetAllBooksFromFile()
+    {
+        if (!File.Exists(_filePath))
+        {
+            return new List<Book>(); // Jeśli plik nie istnieje, zwróć pustą listę
+        }
+
+        var json = File.ReadAllText(_filePath);
+        return JsonSerializer.Deserialize<List<Book>>(json) ?? new List<Book>();
+    }
+}
